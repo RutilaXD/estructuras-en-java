@@ -68,7 +68,6 @@ public class PilaNombres {
 				for (int i = tope; i >= 1; i--) {
 					nombres[i] = nombres[tope-j];
 					j++; 
-					System.out.println("i = "+i+", j = "+j);
 				}				
 			}
 			
